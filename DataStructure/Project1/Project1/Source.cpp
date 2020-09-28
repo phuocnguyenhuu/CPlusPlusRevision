@@ -17,6 +17,7 @@ void convertToYoung(int A[], int k, int Y[100][100], int m, int n) {
 		Y[i / n][i % n] = A[i];
 	for (int i = k; i < m * n; i++)
 		Y[i / n][i % n] = Int;
+	
 }
 
 
